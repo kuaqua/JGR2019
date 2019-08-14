@@ -25,59 +25,90 @@ vertical velocity, unit (m/s)
 Folder "withoutCoriolis"
 
 Filenames:
-kelvinwaves-0005000.dat
-kelvinwaves-0005400.dat
-kelvinwaves-0005800.dat
+
+no1_kelvinwaves-0005000.dat
+no1_kelvinwaves-0005400.dat
+no1_kelvinwaves-0005800.dat
+
+no2_kelvinwaves-0005000.dat
+no2_kelvinwaves-0005400.dat
+no2_kelvinwaves-0005800.dat
 
 2-2) Computational outputs with the Coriolis effect of 2pi/20 (1/s)
 
 Folder "withCoriolis_020" 
 
 Filenames:
-kelvinwaves-0004640.dat
-kelvinwaves-0004880.dat
-kelvinwaves-0005040.dat
-kelvinwaves-0005400.dat
+
+no1_kelvinwaves-0004640.dat
+no1_kelvinwaves-0004880.dat
+no1_kelvinwaves-0005040.dat
+no1_kelvinwaves-0005400.dat
+
+no2_kelvinwaves-0004640.dat
+no2_kelvinwaves-0004880.dat
+no2_kelvinwaves-0005040.dat
+no2_kelvinwaves-0005400.dat
 
 2-3) Computational outputs with the Coriolis effect of 2pi/30 (1/s)
 
 Folder "withCoriolis_030" 
 
 Filenames:
-kelvinwaves-0004780.dat
-kelvinwaves-0004940.dat
-kelvinwaves-0005000.dat
-kelvinwaves-0005120.dat
-kelvinwaves-0005400.dat
-kelvinwaves-0005800.dat
+
+no1_kelvinwaves-0004780.dat
+no1_kelvinwaves-0004940.dat
+no1_kelvinwaves-0005000.dat
+no1_kelvinwaves-0005120.dat
+no1_kelvinwaves-0005400.dat
+no1_kelvinwaves-0005800.dat
+
+no2_kelvinwaves-0004780.dat
+no2_kelvinwaves-0004940.dat
+no2_kelvinwaves-0005000.dat
+no2_kelvinwaves-0005120.dat
+no2_kelvinwaves-0005400.dat
+no2_kelvinwaves-0005800.dat
 
 2-4) Computational outputs with the Coriolis effect of 2pi/40 (1/s)
 
 Folder "withCoriolis_040" 
 
 Filenames:
-kelvinwaves-0004820.dat
-kelvinwaves-0004940.dat
-kelvinwaves-0005060.dat
-kelvinwaves-0005400.dat
+
+no1_kelvinwaves-0004820.dat
+no1_kelvinwaves-0004940.dat
+no1_kelvinwaves-0005060.dat
+no1_kelvinwaves-0005400.dat
+
+no2_kelvinwaves-0004820.dat
+no2_kelvinwaves-0004940.dat
+no2_kelvinwaves-0005060.dat
+no2_kelvinwaves-0005400.dat
 
 2-5) Computational outputs with the Coriolis effect of 2pi/80 (1/s)
 
 Folder "withCoriolis_080" 
 
 Filenames:
-kelvinwaves-0005400.dat
+
+no1_kelvinwaves-0005400.dat
+
+no2_kelvinwaves-0005400.dat
 
 2-6) Computational outputs with the Coriolis effect of 2pi/160 (1/s)
 
 Folder "withCoriolis_160" 
 
 Filenames:
-kelvinwaves-0005400.dat
+
+no1_kelvinwaves-0005400.dat
+
+no2_kelvinwaves-0005400.dat
 
 3) Format of computatinal outputs
 
-Filename, "no1_kelvinwaves-000####_ws.txt", #: 0-9
+Filename, "no1_kelvinwaves-000####.dat", #: 0-9
 row 1: time	"computational time"
 row 2: dz	"vertical mesh interval from the bottom to the top of computational domain"
 row 3: limit_depth	0.001
@@ -87,7 +118,7 @@ row 17604 up to row 35204: "column number"	temperature	"temperature at each vert
 row 35205 up to row 52804: "column number"	w	"vertical velocity at each vertical mesh"
 row 52805 up to row 70404: "column number"	u	"horizontal velocity at each vertical mesh"
 
-Filename, "no2_kelvinwaves-000####_uv.txt", #: 0-9
+Filename, "no2_kelvinwaves-000####.dat", #: 0-9
 row 1 up to row 17600: "column number"	salinity	"salinity at each vertical mesh"
 row 17601 up to row 35200: "column number"	v	"width direction velocity at each vertical mesh"
 
